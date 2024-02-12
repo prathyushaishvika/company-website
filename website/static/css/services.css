@@ -1,0 +1,35 @@
+.heading{
+    text-align: center;
+    padding: 30px;
+   
+}
+.main{
+    background-color:#90A9B7;
+}
+   
+ .topic{
+    color: white;
+    padding: 30px;
+ } 
+ .topic-head{
+    color: white;
+    padding: 30px;
+ } 
+    
+
+.service-crd{
+  margin-top: 50px;
+  height:500px;
+  
+    color: black;
+    padding-left: 20px;
+    background-image:linear-gradient(#EAECEE,#90A9B7);
+    padding-inline: 30px;
+   
+}
+
+.service-picture{
+    height: 500px;
+}
+
+

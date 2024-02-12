@@ -1,0 +1,95 @@
+{% extends 'website/master.html' %}
+{% load static %}
+
+
+{% block content %}
+<style>
+  .title-yellow{
+      
+    color: #eea73f;
+  }
+  .para-white{
+    color: aliceblue;
+  }
+  .card-side{
+    padding: 30px;
+    background-color:#0A0A33 ;
+    height: 230px;
+    width: 550px;
+
+  }
+  .about-img{
+    height: 400px;
+  }
+  .cont-para{
+    padding: 50px;
+  }
+  .about-head{
+    color:#eea73f;
+  }
+
+  </style>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <img src="{% static 'images/aboutusimg1.jpg' %}" class="about-img" alt="...">
+    </div>
+</div>
+<div class="container cont-para">
+    <div class="row">
+        <h5 class="about-head">ABOUT US</h5>
+        <h1>Welcome to Haadain Nas Pvt Ltd (HDN)</h1>
+        <P>At Haadaain Nas Pvt Ltd (HDN), we are an emerging powerhouse in the world of Manpower Recruitment. Our commitment to providing End-to-End  <br> Recruitment Solutions is driven by our unwavering dedication to meet the diverse staffing needs of businesses.</P>
+    
+        <div class="row" >
+            <div class="col-sm-6 mb-3 mb-sm-0" >
+              <div>
+                <div class="card-body  card-side">
+                  <h5 class="title title-yellow">OUR VISION</h5>
+                  <p class="para-white" >To create a global company focused on providing Human Capital <br> Solutions in the field of Information Technology.</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div >
+                <div class="card-body  card-side">
+                  <h5 class="title title-yellow">OUR MISSION</h5>
+                  <p  class="para-white">To be the preferred and innovative provider and manager of <br> Human Capital Solutions, driven by the most appropriate and <br> current technology, systems and processes. To be an employer <br> of choice and provide an environment of Trust, Empowerment <br> and Learning for its employees</p>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+            <h3>Our Team</h3>
+            <p>HDN is more than just a company; it's a dynamic team of vibrant young professionals brimming with enthusiasm and guided by seasoned experts <br> who possess deep industry knowledge. We understand that every business is unique, and that's why we approach each recruitment challenge <br> with a tailored solution, aligning our strategies with your specific requirements.
+
+            </p>
+            <h3>Our Approach</h3>
+            <p>Our strength lies in our qualitative approach and a commitment to industry best practices. We take pride in providing top-notch service, <br> leveraging our network, expertise, and resources to ensure your staffing needs are met efficiently and effectively.
+
+            </p>
+            <h3>Our Success Story</h3>
+            <p>In a relatively short span of time, HDN has achieved remarkable success, all thanks to the unwavering dedication and enthusiasm of our team. <br> We've built a strong and loyal clientele who trust us to deliver the right talent, at the right time.</p>
+
+            <h3>Our Commitment</h3>
+            <p>At HDN, we are committed to your success. We take pride in our ability to understand the ever-evolving dynamics of the job market and offer <br> innovative solutions that help you navigate the challenging terrain of talent acquisition. Our goal is to become your <br> trusted partner in your journey towards business growth. <br>
+
+                Join us at HDN, where every recruitment challenge is an opportunity to excel. Let us help you build the workforce you need to achieve your goals.</p>
+
+        </div>
+
+
+
+</div>
+
+
+
+
+
+{% endblock %}

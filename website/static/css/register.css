@@ -1,0 +1,47 @@
+.table-register{
+    padding: 15px;
+}
+.input-rg{
+    width: 400px;
+    padding-left:15px;
+    border-color: antiquewhite;
+}
+.register-page{
+    padding-top: 30px;
+    
+    background-image:linear-gradient(#90A9B7,#e5e7e7);
+}
+.register-sub{
+    background-color:#0A0A33;
+    
+    color: white;
+    height: 50px;
+    font-size:medium;
+    margin-left:200px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 0 10px 0 10px;
+    transition: all 0.4s ease-in-out 0s;
+    overflow: hidden;
+    height:50px ;
+    width: 150px;
+    margin-top: 30px;
+    
+    
+}
+.table-drops{
+    width: 400px;
+    margin-left:15px;
+}
+.table-resume{
+    width: 50px;
+
+}
+.subreg{
+    padding-left: 50px;
+}
+.registermain{
+    height: 800px;
+}
+

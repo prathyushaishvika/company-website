@@ -1,0 +1,95 @@
+{% extends 'website/master.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container-fluid   register-page">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-9  registermain">
+            <h3>Registration Form:</h3>
+            <h4>Candidate Details:</h4>
+
+            <table >
+                <tr>
+                    <td class="table-register"><label for="">Candidate Name:</label></td>
+                    <td class="table-register "><input class="input-rg" type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td class="table-register"><label for="">Email:</label></td>
+                    <td class="table-register"><input class="input-rg" type="email" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td class="table-register"><label for="">Mobile Number:</label></td>
+                    <td class="table-register"><input class="input-rg" type="number" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td class="table-register"><label for="">Qualification:</label></td>
+                    <td class="table-register"><input class="input-rg" type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <tr>
+                        <td><label class="table-register" for="">Job role:</label></td>
+                        <td class="table-register"><input class="input-rg" type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label class="table-register" for="">Experience:</label></td>
+
+                    
+                       
+                            <td>
+                        <form action="#">
+                            
+                              <select class="table-drops"  name="watches" id="watches">
+                              <option value="fresher">fresher</option>
+                                <option value="Casio">1 year</option>
+                                  <option value="Citizen">2 year</option>
+                                  <option value="Citizen">3 year</option>
+                                  <option value="Citizen">4 year</option>
+                                  <option value="Citizen">5 year</option>
+                                  <option value="Citizen">6 year</option>
+                                  <option value="Citizen">7 year</option>
+                                  </optgroup>
+                              
+                              </select>
+                              </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table-register"><label for="">Upload Resume:</label></td>
+                    <td class="table-resume"><input class="input-rg" type="file" name="" id=""></td>
+
+                </tr>
+                <tr>
+                <form method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <button  class="subreg" type="submit">Submit</button>
+                </form>
+            </tr>
+              
+                <!-- <tr>
+                    <td class="subreg"><input class="register-sub" type="submit" value="Submit Details "></td>
+                </tr>
+               
+                     -->
+               
+                
+
+            </table>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

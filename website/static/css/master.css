@@ -1,0 +1,46 @@
+
+.navbar navbar-expand-lg {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+} 
+
+   
+
+.list-group-item {
+    color: aliceblue;
+    font-size: 17px;
+}
+
+.card-text{
+    color: aliceblue;
+}
+
+
+a{
+    text-decoration: none;
+    
+}
+
+
+ .card-img-top,  .image {
+    height: 66px;
+}
+.para1{
+    color:goldenrod;
+    padding: 10px;
+}
+.footer{
+    padding: 30px;
+}
+
+/* .container .bgm{
+    --bs-gutter-x: -1.5rem;
+} */
+.list-group-item .list-group-item-action{
+    line-height:80px;
+
+}
+.lower{
+    margin-right: 30px;
+}

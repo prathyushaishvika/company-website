@@ -1,0 +1,49 @@
+.contact-table{
+
+    /* border: 1px solid black; */
+    background-color:white;
+    height: 500px;
+    width: 600px;
+    margin-top:60px;
+}
+.contact-bgcolor{
+    background-color:#90A9B7;
+    
+    margin-top: 60px;
+
+}
+.first-contact{
+    margin-top: 60px;
+}
+.input-box{
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    width:250px;
+}
+textarea{
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    width:350px;
+
+}
+
+.input-btn{
+    background-color:goldenrod;
+    border-color:goldenrod ;
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 0 10px 0 10px;
+    transition: all 0.4s ease-in-out 0s;
+    overflow: hidden;
+    height:50px ;
+    width: 150px;
+    color:white;
+    margin-left: 30px;
+    
+}
+    
+    

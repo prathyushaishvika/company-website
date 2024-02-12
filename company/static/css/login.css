@@ -1,0 +1,35 @@
+.logborder{
+    border:1px solid rgb(51, 137, 180) ;
+    height: 500px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: cadetblue;
+
+    
+
+}
+.logemail{
+    margin-top: 100px;
+
+
+}
+.loginput{
+    padding-left: 40px;
+    margin-left: 40px;
+}
+.logput{
+    padding-left: 40px;
+    margin-left:20px;
+
+}
+.logsub{
+    margin: 50px;
+    height: 40px;
+    width: 140px;
+    background-color:#0A0A33 ;
+    color: antiquewhite;
+    font-size: 15px;
+    border-color: #0A0A33;
+}

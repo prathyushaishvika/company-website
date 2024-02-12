@@ -1,0 +1,29 @@
+{% extends 'company/index.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row  dashrow">
+        <h1 class="dashhead">Candidate Details</h1>
+       
+        <table  class="dashtable">
+            <tr class="trtable">
+                <th class="thtable">Name</th>
+                <th class="thtable">Email</th>
+                <th class="thtable">Mobile number</th>
+                <th class="thtable">Qulification</th>
+                <th class="thtable">Experience</th>
+                <th class="thtable">Job Role</th>
+                <th class="thtable">Resume</th>
+            </tr>
+            {% for candidate in candidatess %}
+            <p>{{ cabdidate.name }} - {{ candidate.jobrole }}</p>
+            
+        {% endfor %}
+
+        </table>
+    </div>
+</div>
+<br><br>
+
+{% endblock %}
